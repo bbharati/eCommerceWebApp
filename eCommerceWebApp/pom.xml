@@ -11,11 +11,16 @@
     <groupId>com.example</groupId>
     <artifactId>eCommerceWebApp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>eCommerceWebApp</name>
     <description>eCommerceWebApp</description>
     <properties>
         <java.version>11</java.version>
     </properties>
+    <modules>
+        <module>api-gateway</module>
+        <module>user-login</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
